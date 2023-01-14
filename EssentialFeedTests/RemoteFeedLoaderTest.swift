@@ -81,8 +81,6 @@ class RemoteFeedLoaderTest: XCTestCase {
         
         let item1 = makeItem(
             id: UUID(),
-            description: nil,
-            location: nil,
             imageURL: URL(string: "http://a-url.com")!)
         
         let item2 = makeItem(
@@ -95,7 +93,7 @@ class RemoteFeedLoaderTest: XCTestCase {
         
         expect(sut, toCompleteWith: .success(items), when: {
             let json = makeItemsJSON([item1.json, item2.json])
-            client.complete(withStatusCode: 200, data:  json)
+            client.complete(withStatusCode: 200, data: json)
         })
     }
     
@@ -107,7 +105,7 @@ class RemoteFeedLoaderTest: XCTestCase {
             "description": description,
             "location": location,
             "image": imageURL.absoluteString
-        ].reduce(into: [String: Any]()) { acc, e in
+        ].reduce(into: [String: Any]()) { (acc, e) in
             if let value = e.value { acc[e.key] = value }
         }
         
