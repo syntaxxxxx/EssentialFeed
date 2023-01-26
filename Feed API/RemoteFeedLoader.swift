@@ -5,7 +5,7 @@
 //  Created by Fiqri Hafzain Islami on 04/01/23.
 //
 
-public final class RemoteFeedLoader {
+public final class RemoteFeedLoader: FeedLoader {
     private let url: URL
     private let client: HTTPClient
     
