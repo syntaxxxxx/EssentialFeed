@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D54CB5A829834C6D0076C0D0 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54CB5A729834C6D0076C0D0 /* URLSessionHTTPClientTests.swift */; };
 		D562B65729414FFD00AF429F /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = D562B65629414FFD00AF429F /* EssentialFeed.docc */; };
 		D562B65D29414FFD00AF429F /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D562B65229414FFD00AF429F /* EssentialFeed.framework */; };
 		D562B66229414FFD00AF429F /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D562B66129414FFD00AF429F /* EssentialFeedTests.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D54CB5A729834C6D0076C0D0 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		D562B65229414FFD00AF429F /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D562B65529414FFD00AF429F /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		D562B65629414FFD00AF429F /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				D5763DA6295F17D400117C85 /* RemoteFeedLoaderTest.swift */,
+				D54CB5A729834C6D0076C0D0 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5763DA7295F17D400117C85 /* RemoteFeedLoaderTest.swift in Sources */,
+				D54CB5A829834C6D0076C0D0 /* URLSessionHTTPClientTests.swift in Sources */,
 				D562B66229414FFD00AF429F /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
